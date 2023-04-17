@@ -101,6 +101,7 @@ function guess(e){
     // game ends when all face up 
     else if (matches.length == 12) {
         console.log('winwinwinwinwiwniwnwinwiwnwinwin')
+        document.querySelector('h1').innerText = 'Flipping fantastic! You matched all the Belchers!'
     }
 }
 document.getElementById('refresh').addEventListener('click', refresh)
