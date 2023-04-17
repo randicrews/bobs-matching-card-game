@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+*{
+  background-repeat: no-repeat;
+  background-size:contain;
+  font-family: 'DynaPuff', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 62.5%;
+}
+.hidden{
+  background: url(back.jpeg) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+h1{
+  font-family: 'DynaPuff', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  text-shadow: 0 0 10px black;
+  font-size: 4rem;
+  margin: 10px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(bigback.jpg);
+  background-size: cover;
+}
+#arena{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  width: 50%;
+  background: rgba(103, 135, 189, 0.444);
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 20px;
+}
+div{
+  width:20%;
+  height: 150px;
+  margin: 5px;
+  border: black solid 5px;
+}
+button{
+  font-family: 'DynaPuff', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: rgb(150	3	31);
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
